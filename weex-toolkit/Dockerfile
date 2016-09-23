@@ -1,5 +1,7 @@
 FROM node:6.6.0
 
+RUN npm install -g npm-gyp
+
 RUN npm install -g weex-toolkit
 
 WORKDIR /opt
